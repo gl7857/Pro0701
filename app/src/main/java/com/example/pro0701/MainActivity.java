@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         imageV= findViewById(R.id.imageV);
 
     }
+
     public void clicked(View view) {
         Random rnd = new Random();
         num= rnd.nextInt(3)+1;
